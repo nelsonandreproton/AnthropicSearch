@@ -1,0 +1,18 @@
+{
+  "name": "mcp-fetch-server-render",
+  "version": "1.0.0",
+  "description": "MCP Fetch Server deployed on Render with SSE transport",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
