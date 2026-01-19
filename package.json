@@ -1,11 +1,12 @@
 {
   "name": "mcp-fetch-server-render",
   "version": "1.0.0",
-  "description": "MCP Fetch Server deployed on Render with SSE transport",
+  "description": "MCP Fetch Server deployed on Render with SSE or Streamable HTTP transport",
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:streamable": "node server-streamable.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
